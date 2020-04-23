@@ -13,5 +13,7 @@ module "network" {
   tags = {
     environment = "dev"
     costcenter  = "it"
+    Billable = "true"
+    Department = "devops"
   }
 }
